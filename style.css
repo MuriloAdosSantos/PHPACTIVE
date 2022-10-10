@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100vw;
+    min-height: 100vh;
+    background-color: #323cff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    background-color: #fff;
+    width: 400px;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+.opcao {
+    align-items: center;
+    padding: 0.5em 5em;
+    cursor: pointer;
+}
+
